@@ -64,12 +64,12 @@
 
 
 
-// let array = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown'];
+let array = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown', 'white'];
 
-// let div = document.querySelector('.div');
+let div = document.querySelector('.div');
 
-// for (let i = 0; i < array.length; i++) {
-//     div.innerHTML += `
-//     <div style='width:100px;height:100px;background-color: ${array[i]};'>${array[i]}</div>
-//     `
-// }
+for (let i = 0; i < array.length; i++) {
+    div.innerHTML += `
+    <div style='width:100px;height:100px;background-color: ${array[i]};display: flex;justify-content: center;align-items:center;border: 1px solid black'>${array[i]}</div>
+    `
+}
